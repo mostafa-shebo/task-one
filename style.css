@@ -1,0 +1,109 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+h1{
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+    padding: 45px;
+
+}
+section {
+    color: #000;
+    border: 3px solid black;
+    background-color: #999999;
+    display: inline-block;
+    width: 400px;
+    height: 155px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding-left: 6px;
+
+}
+h2{
+	color: #000;
+	position: relative;
+	right: -333px;
+	border: 1px solid  black;
+	background-color: red;
+    width: 66px;
+    text-align: center;
+}
+
+.one{
+	background-color:#C14543 ;
+}
+.two{
+	background-color: #D59898;
+}
+.th{
+	background-color:#E5D198 ;
+}
+/**/
+@media(max-width: 2000px ) and (min-width: 991px){
+ section {
+    display: inline-block;
+
+    width: 400px;
+
+    height: 155px;
+
+    margin-top: 10px;
+
+    margin-left: 10px;
+
+    padding-left: 6px;
+
+ }
+}
+
+
+
+
+
+
+
+
+
+ /*   tablet mode only  */
+/* @media(min-width: 768px) and (max-width: 991px){
+ 	.html{
+ 		float:left}
+ 	.css{
+float:left;
+margin-right: 10px: }
+.js{
+width:100%;
+font-size: 20px;
+margin: 10px;
+} 	
+ }
+*/
+
+
+
+
+
+
+ /*    phone mode only   */
+/* @media screen  and (max-width: 767px){
+ 	.html{
+ 	
+	 	
+	 	font-size: 16px;
+	 	color: blue;
+}
+ 	
+ 	.css{
+		
+		font-size: 16px;
+		color: blue;
+}
+	.js{
+		
+		font-size: 16px;
+		color: blue;
+} 	
+ }
+*/
